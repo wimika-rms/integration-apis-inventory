@@ -104,9 +104,7 @@ APIs used to simulate banking operations for the demo application.
 | `GET` | `/api/BankAccount` | Retrieves a collection of the user's bank accounts. |
 | `POST` | `/api/BankAccount` | Creates a new bank account. |
 | `GET` | `/api/BankAccount/{id}` | Retrieves details of a specific bank account. |
-| `POST` | `/api/Debit` | Performs a general debit operation with security context (typing patterns). |
-| `POST` | `/api/DebitTransaction` | Records a specific debit transaction between accounts. |
-| `POST` | `/api/Deposit` | Performs a deposit operation, supporting attachment uploads. |
+| `POST` | `/api/Debit` | Performs a debit operation for Policy subscription payment. |
 | `GET` | `/api/Session` | Retrieves a user session based on a partner token. |
 | `GET` | `/api/Transaction` | Retrieves a history of user transactions. |
 | `GET` | `/api/Transaction/{id}` | Retrieves details of a specific transaction. |
